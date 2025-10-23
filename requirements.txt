@@ -1,0 +1,15 @@
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+torchaudio==2.3.1+cu121
+torch-geometric
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+pyg-lib
+opacus==1.4.0
+scikit-learn
+matplotlib
+numpy
+pandas
+tqdm
