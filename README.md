@@ -24,7 +24,7 @@ We simulate **Federated Learning (FL)** across multiple clients that each hold a
 
 ## Plots
 
-| Privacy Loss | Loss / Accuracy | t-SNE of GAT Embeddings |
+| Loss / Accuracy | t-SNE of GAT Embeddings |
 |-------------|----------------|------------------------|
 | ![Privacy loss](loss_acc_curves.png){width=300}  | ![t-SNE](t-SNE.png){width=300} |
 
