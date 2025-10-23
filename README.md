@@ -24,14 +24,18 @@ We simulate **Federated Learning (FL)** across multiple clients that each hold a
 
 ## Plots
 
-| Loss / Accuracy | t-SNE of GAT Embeddings |
-|-------------|----------------|------------------------|
-| ![Privacy loss](loss_acc_curves.png){width=300}  | ![t-SNE](t-SNE.png){width=300} |
+<div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
+  <figure style="flex: 1; min-width: 300px; max-width: 400px; text-align:center;">
+    <img src="loss_acc_curves.png" alt="Loss / Accuracy" style="width:100%; height:auto; border-radius:8px;"/>
+    <figcaption>Training dynamics: loss decreases while accuracy improves over time.</figcaption>
+  </figure>
+  <figure style="flex: 1; min-width: 300px; max-width: 400px; text-align:center;">
+    <img src="t-SNE.png" alt="t-SNE of GAT embeddings" style="width:100%; height:auto; border-radius:8px;"/>
+    <figcaption>t‑SNE projection of final‑round GAT embeddings; clusters reflect attack vs normal and sub‑types.</figcaption>
+  </figure>
+</div>
 
-*Figure captions:*  
-- Privacy loss (ε) increases with the number of federated rounds (DP composition).  
-- Training dynamics: loss decreases while accuracy improves over time.  
-- t‑SNE projection of final‑round GAT embeddings; clusters reflect attack vs normal and sub‑types.  
+*Figure note:* Privacy loss (ε) increases with the number of federated rounds (DP composition).
 
 ---
 
